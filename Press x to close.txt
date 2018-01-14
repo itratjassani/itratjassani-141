@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char a;
+	cout<<"Press X to close the program";
+	while(1)
+	{
+        cout <<"\n Press any alphebet\t";
+	cin>>a;
+	if(a=='x')
+	{
+		exit(0);
+	}
+	}
+}
