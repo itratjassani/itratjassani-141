@@ -1,0 +1,10 @@
+QUESTION: What is Git?
+Git is a repository hosting service.
+Git is a Version control System for tracking changes in files and coordinating work on those files among multiple people. We can use Git to keep track of changes in any set of files 
+QUESTION: What is the difference between SVN and Git?
+1. SVN is a Centralized Revision Control System(CVCS) and Git is a Distributed Revision Control System (DVCS). 
+2. Git is much faster than SVN.
+3. SVN is easier to use than Git
+QUESTION: Write a command to commit your work in Git
+For your first commit: git commit -m "first commit"
+command for commit :git commit
