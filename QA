@@ -9,7 +9,7 @@ QUESTION: Write a command to commit your work in Git
 For your first commit: git commit -m "first commit"
 command for commit :git commit
 QUESTION: Create a repository with your name with unique roll number in GitHub?
-Created you can check on itratjassani-141/QA 
+Created you can check on https://github.com/itratjassani/itratjassani-141.git
 QUESTION: What is "staging area" or "index" in Git?
 The git "index" is where you place files you want committed to the git repository. Before you "commit" files to the git repository, you need to first place the files in the git "index".
 QUESTION: What are the advantages of using Git?
