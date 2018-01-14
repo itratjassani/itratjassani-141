@@ -21,3 +21,24 @@ QUESTION: What are the advantages of using Git?
 6. Branching and merging are easy
 7. It is free to use
 QUESTION: What is Git Clone?
+Cloning a git repository means that you create a local copy of the code provided by developer.If we clone someones repository we will get their codes and the benefit of cloning is that when ever they make changes in their repository we will automatically get their repository copy.
+QUESTION: What is the command to delete branch?
+Remote Branch: $ git push origin --delete <branch>
+Local Branch: $ git branch --delete <branch>
+QUESTION: Explain the architecture of Git in your own words?
+The 3-Tree Architecture.
+VCS works by having two places to store things:
+1. Working Copy
+2. Staging
+3. Repository
+If we called Git a 3-Tree Architecture it revolve around working copy to staging by add then from staging to repository by commit and repository to working copy by checkout.
+QUESTION: How to Resolve Conflicts in Git? 
+1. Open git bash 
+2. Open Local Git Repository 
+3. Generate a list of files that are affected by the merge conflict
+4. Then open your merged code in any editor 
+5. Then you can delete the changes last person have done or can see the history of changes have done in past and you can also edit the changes
+6. Then you can add or stage your changes
+7. Then Commit your changes with a comment 
+QUESTION: Name the different vendors that are working on VCS?
+
