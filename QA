@@ -8,3 +8,16 @@ QUESTION: What is the difference between SVN and Git?
 QUESTION: Write a command to commit your work in Git
 For your first commit: git commit -m "first commit"
 command for commit :git commit
+QUESTION: Create a repository with your name with unique roll number in GitHub?
+
+QUESTION: What is "staging area" or "index" in Git?
+The git "index" is where you place files you want committed to the git repository. Before you "commit" files to the git repository, you need to first place the files in the git "index".
+QUESTION: What are the advantages of using Git?
+1. Recall and revert the entire project back to its previous state
+2. Compare code changes over specific durations of time
+3. Find who last modified a piece of code that might be causing an issue or a problem
+4. We can hide our work if we want by making it private
+5. They are fast and consume very little space
+6. Branching and merging are easy
+7. It is free to use
+QUESTION: What is Git Clone?
