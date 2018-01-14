@@ -1,0 +1,147 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	char name[30];
+	char fathername[30];
+	char school[40];
+	char group[15];
+	int rollno;
+	cout<<"Enter your name:  ";
+	cin>>name;
+	cout<<"Enter your father name:  ";
+	cin>>fathername;
+	cout<<"Enter your school number:  ";
+	cin>>school;
+	cout<<"Enter your group:  ";
+	cin>>group;
+	cout<<"Enter your rollno:  ";
+	cin>>rollno;
+	int eng;
+	int pst;
+	int chem;
+	int sin;
+	int comp;
+	int compp;
+	int  chemp;
+	cout<<"Enter your english marks:";
+	cin>>eng;
+	cout<<"Enter your pakistan studies marks:";
+	cin>>pst;
+	cout<<"Enter your chemistry marks:";
+	cin>>chem;
+	cout<<"Enter your sindhi marks:";
+	cin>>sin;
+	cout<<"Enter your computer practical marks:";
+	cin>>compp;
+	cout<<"Enter your computer marks:";
+	cin>>comp;
+	cout<<"Enter your chemistry practical marks:";
+	cin>>chemp;
+	
+	cout<<"\nStudent's Name:"<<name;
+	cout<<"\nStudent's Father Name:"<<fathername;
+	cout<<"\nstudent's School Nmae:"<<school;
+	cout<<"\nStudent's Group:"<<group;
+	cout<<"\nStudent's Roll NO:"<<rollno;
+	cout<<"\nEnglish Marks:"<<eng;
+	if (eng>=25)
+	{
+		cout<<"\nPassed";
+	}
+	else
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nPakistan Studies Marks:"<<pst;
+	if(pst>=25)
+	{
+		cout<<"\nPassed";
+	}
+	else
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nChemistry Marks:"<<chem;
+	if(chem>=28)
+	{
+		cout<<"\nPassed";
+	}
+	else
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nChemistry Practical Marks:"<<chemp;
+	if(chemp>=5)
+	{
+		cout<<"\nPassed";
+	}
+	else 
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nSindhi Marks:"<<sin;
+	if(sin>=25)
+	{
+		cout<<"\nPassed";
+	}
+	else
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nComputer Marks:"<<comp;
+	if(comp>=25)
+	{
+		cout<<"\nPassed";
+	}
+	else
+	{
+		cout<<"\nFailed";
+	}
+	cout<<"\nComputer Practical Marks:"<<comp;
+	if(compp>=8)
+	{
+		cout<<"\nPassed";
+	}
+    else
+	{
+		cout<<"\nFailed";
+	}
+		
+	float avg;
+	float tol;
+	tol=(eng+pst+chem+sin+comp+compp+chemp);
+	avg=(tol/425)*100;
+	if(avg>=80)
+	{
+		cout<<"\nYour grade is: A+";
+	}
+	else if (avg>=70)
+	{
+		cout<<"\nYour grade is: A";
+	}
+	else if (avg>=60)
+	{
+		cout<<"\nYour grade is: B+";
+	}
+	else if (avg>=50)
+	{
+		cout<<"\nYour grade is: B";
+	}
+	else if (avg>=40)
+	{
+		cout<<"\nYour grade is: C";
+	}
+	else if(avg>=33)
+	{
+		cout<<"\nYour grade is: D";
+	}
+	else 
+	{
+		cout<<"\nYour grade is: F";
+	}
+	cout<<"\nYour Total marks is:"<<tol;
+	cout<<"out of 425";
+	cout<<"\nYour Percentage is:"<<avg;
+	cout<<"%";
+}
