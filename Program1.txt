@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char operation;
+	float num1;
+	float num2;
+	cout << "Enter any operation:";
+	cin >> operation;
+	cout << "Enter first operation:";
+	cin >> num1;
+	cout << "Enter second operation:";
+	cin >> num2;
+	switch(operation)
+	{
+	case '+':
+		 cout <<"Your answer is  "<< num1+num2;
+		 break;
+	 case '-':
+		 cout <<"Your answer is  "<< num1-num2;
+		 break;
+	 case '*':
+		 cout <<"Your answer is  "<< num1*num2;
+		 break;
+	 case '/':
+		 cout <<"Your answer is  "<< num1/num2;
+		 break;
+	 default:
+		 cout << "Error! operator is not correct";
+		 break;
+	}
+}
