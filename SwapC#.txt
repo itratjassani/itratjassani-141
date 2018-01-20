@@ -1,0 +1,30 @@
+usiusing System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b;
+            string num1, num2;
+            Console.WriteLine("Program to switch the values swap:");
+            Console.Write("Enter first value:  ");
+            num1 = Console.ReadLine();
+            a = Int32.Parse(num1);
+            Console.Write("Enter second value:  ");
+            num2 = Console.ReadLine();
+            b = Int32.Parse(num2);
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine("After swaping number 1 is: {0}", a);
+            Console.WriteLine("After swaping number 2 is: {0}", b);
+            Console.ReadKey();
+        }
+    }
+}
+}
