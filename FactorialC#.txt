@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number, fac = 1;
+            string num;
+            Console.Write("Enter any number to check its factorial : ");
+            num = Console.ReadLine();
+            number = Int32.Parse(num);
+            for (int i = number; i > 1; i--)
+            {
+                fac = fac * i;
+            }
+            Console.WriteLine("Factorial of {0} is : {1}", number, fac);
+            Console.ReadKey();
+        }
+    }
+}
+}
