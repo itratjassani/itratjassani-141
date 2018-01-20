@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int rad, dia, cir, area;
+            string r;
+            Console.Write("Enter radius to find diameter,circumference and area of a circle : ");
+            r = Console.ReadLine();
+            rad = Int32.Parse(r);
+            dia = 2 * rad;
+            cir = 2 * dia * rad;
+            area = dia * rad * rad;
+            Console.WriteLine("Diameter of circle is : {0}", dia);
+            Console.WriteLine("Circumference of circle is : {0}", cir);
+            Console.WriteLine("Area of circle is : {0}", area);
+            Console.ReadKey();
+        }
+    }
+}
