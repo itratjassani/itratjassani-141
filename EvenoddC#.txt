@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number;
+            string num;
+            Console.Write("Enter any number to check even or odd : ");
+            num = Console.ReadLine();
+            number = Int32.Parse(num);
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("The number you have entered is even");
+            }
+            else
+            {
+                Console.WriteLine("The number you have entered is odd");
+            }
+            Console.ReadKey();
+        }
+    }
+}
