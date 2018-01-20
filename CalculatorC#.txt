@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number1, number2, sum, sub, mul, div;
+            string num1, num2;
+            Console.WriteLine("\t\t\t========Calculator========");
+            Console.Write("Enter first number: ");
+            num1 = Console.ReadLine();
+            number1 = Int32.Parse(num1);
+            Console.Write("Enter second number: ");
+            num2 = Console.ReadLine();
+            number2 = Int32.Parse(num2);
+            sum = number1 + number2;
+            Console.WriteLine("Addition of your numbers are:{0}", sum);
+            sub = number1 - number2;
+            Console.WriteLine("Subtraction of your numbers are:{0}", sub);
+            mul = number1 * number2;
+            Console.WriteLine("Multiplication of your numbers are:{0}", mul);
+            div = number1 / number2;
+            Console.WriteLine("Division of your numbers are:{0}", div);
+            Console.ReadKey();
+        }
+    }
+}
